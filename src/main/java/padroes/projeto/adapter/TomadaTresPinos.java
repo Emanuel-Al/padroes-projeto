@@ -1,8 +1,7 @@
 package padroes.projeto.adapter;
 
-public class TomadaTresPinos {
-
-    public void ligarNaTomadaTresPinos() {
-        System.out.println("ligado na tomada de tres pinos");
+public class TomadaTresPinos implements Tomada {
+    public void ligarNaTomada() {
+        System.out.println("Tomada de três pinos conectada.");
     }
 }
